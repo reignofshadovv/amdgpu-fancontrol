@@ -1,5 +1,9 @@
 forked from https://git.sr.ht/~mser/amdgpu-fancontrol/tree/master/PKGBUILD
 
+**Use at your own risk!** values set for my own gpu RX6700(nonXT). Needs adjusting for different hardware.
+
+install.sh is basically cp commands to copy 3 relevant files to specific locations copying files manually and enabling systemd service gets the job done.
+
 # amdgpu-fancontrol
 
 > A simple bash script to control the fan speed of AMD graphics cards
