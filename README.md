@@ -1,3 +1,5 @@
+forked from https://git.sr.ht/~mser/amdgpu-fancontrol/tree/master/PKGBUILD
+
 # amdgpu-fancontrol
 
 > A simple bash script to control the fan speed of AMD graphics cards
