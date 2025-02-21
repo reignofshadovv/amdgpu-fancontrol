@@ -13,6 +13,7 @@ conflicts=("amdgpu-fancontrol")
 backup=("etc/amdgpu-fancontrol.cfg")
 source=("${_pkgname}::git+https://github.com/reignofshadovv/amdgpu-fancontrol")
 md5sums=("SKIP")
+install=amdgpu-fancontrol.install
 
 pkgver() {
   cd "${srcdir}/${_pkgname}"
