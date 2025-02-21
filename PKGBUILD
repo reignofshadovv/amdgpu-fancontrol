@@ -11,7 +11,7 @@ depends=("bc" "systemd")
 provides=("amdgpu-fancontrol")
 conflicts=("amdgpu-fancontrol")
 backup=("etc/amdgpu-fancontrol.cfg")
-source=("${_pkgname}::git+https://git.sr.ht/~mser/amdgpu-fancontrol")
+source=("${_pkgname}::git+https://github.com/reignofshadovv/amdgpu-fancontrol")
 md5sums=("SKIP")
 
 pkgver() {
